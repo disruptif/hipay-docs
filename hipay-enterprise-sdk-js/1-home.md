@@ -1,10 +1,10 @@
-# HiPay Enterprise SDK for JavaScript (Direct Post)
+# HiPay Enterprise SDK Tokenization
 
-The HiPay Enterprise SDK for JavaScript allows you to tokenize credit or debit cards using the HiPay Enterprise payment platform, directly from the web browser. This method (called Direct Post in the PCI Council terminology) enables you to offer a unified payment workflow to your customers while remaining PCI compliant.
+The HHiPay Enterprise SDK Tokenization allows you to tokenize credit or debit cards using the HiPay Enterprise payment platform, directly from the web browser. This method (called Direct Post in the PCI Council terminology) enables you to offer a unified payment workflow to your customers while remaining PCI compliant.
 
 # Security principle
 
-Payment data (card number, card verification code and so on) will never hit your server: they will remain in the browser and will be sent directly to the HiPay Enterprise Secure Vault. This method is called "Direct Post". That way, you can create your own payment form, hosted on your server. Once the user validates the form, payment data are sent to the HiPay Enterprise platform through the HiPay Enterprise SDK for JavaScript, which returns a token. Then, you can process payments with the token on the server side.
+Payment data (card number, card verification code and so on) will never hit your server: they will remain in the browser and will be sent directly to the HiPay Enterprise Secure Vault. This method is called "Direct Post". That way, you can create your own payment form, hosted on your server. Once the user validates the form, payment data are sent to the HiPay Enterprise platform through HiPay Enterprise SDK Tokenization, which returns a token. Then, you can process payments with the token on the server side.
 
 # Installation
 
@@ -61,7 +61,7 @@ You should see the form shown in the screenshot above.
 
 The following integration guide describes step by step how to use the HiPay Enterprise SDK for JavaScript. The implementation can also be found in the example app (see the previous section).
 
-## Import the JavaScript SDK
+## Import the HiPay Enterprise SDK Tokenization
 
 To use the SDK, you need to add the following script tag to your HTML pages:
 
