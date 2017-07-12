@@ -18,15 +18,15 @@ Go in the **Manage Document Types** section by following these steps.
 
 You need to provide the following list of document types by clicking on *Add a document type*:
 
-| Label | Description | Code | 
-|-------|-------|------|
-| Bank | Bank account details (“RIB”/IBAN) / Account statement /… (for all professionals) | `ALL_PROOF_OF_BANK_ACCOUNT` |
-| Identity card | Copy of a valid identification document of the legal representative (professionals — **only for corporations**) | `LEGAL_IDENTITY_OF_REPRESENTATIVE` | 
-| Company Registration | Document certifying company registration issued within the last three months (Kbis extract) (professionals — **only for corporations**) | `LEGAL_PROOF_OF_REGISTRATION_NUMBER` | 
-| Distribution of power | Signed Articles of Association with the division of powers (professionals — **only for corporations**)| `LEGAL_ARTICLES_DISTR_OF_POWERS` |  
-| ID proof | Copy of a valid identification document of the legal representative (professionals — **only for persons**) | `SOLE_MAN_BUS_IDENTITY` |  
-| Company Registration  | Document certifying registration issued within the last three months (Kbis extract) (professionals — **only for persons**)  | `SOLE_MAN_BUS_PROOF_OF_REG_NUMBER` |  
-| Tax status | Document certifying tax status (“auto-entrepreneur” / independent /…) (professionals — **only for persons**) | `SOLE_MAN_BUS_PROOF_OF_TAX_STATUS` |  
+| Types of professional | Label | Description | Code | 
+|-------|-------|-------|------|
+| **All professionals** | Bank | Bank account details (“RIB”/IBAN) / Account statement /… | `ALL_PROOF_OF_BANK_ACCOUNT` |
+| **Corporation** | Identity card | Copy of a valid identification document of the legal representative | `LEGAL_IDENTITY_OF_REPRESENTATIVE` | 
+| **Corporation** || Company Registration | Document certifying company registration issued within the last three months (Kbis extract) | `LEGAL_PROOF_OF_REGISTRATION_NUMBER` | 
+| **Corporation** | Distribution of power | Signed Articles of Association with the division of powers | `LEGAL_ARTICLES_DISTR_OF_POWERS` |  
+| **Persons** | ID proof | Copy of a valid identification document of the legal representative | `SOLE_MAN_BUS_IDENTITY` |  
+| **Persons** | Company Registration  | Document certifying registration issued within the last three months (Kbis extract) | `SOLE_MAN_BUS_PROOF_OF_REG_NUMBER` |  
+| **Persons** | Tax status | Document certifying tax status (“auto-entrepreneur” / independent /…) | `SOLE_MAN_BUS_PROOF_OF_TAX_STATUS` |  
 
 You can set whatever you want in the description field. In any case, **the codes must be exactly as displayed in the table**.
 
